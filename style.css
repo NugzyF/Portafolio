@@ -1,0 +1,101 @@
+
+h1{
+
+    color:black;
+    margin-left:30px;
+
+}
+.header{
+
+    background-color: lightblue;
+    display:flex;
+    justify-content: space-between;
+    border:solid;
+    border-color:yellow;
+
+}
+
+.grid{
+
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+
+}
+
+.footer{
+
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+
+}
+body{
+
+    background-color:gray;
+
+}
+.menu{
+
+    border:solid;
+    margin-right:30px;
+    background-color:black;
+    opacity:70%;
+
+}
+
+a:link{
+
+    color:RED;
+
+}
+a:visited{
+
+    color:coral;
+
+}
+.menu a {
+
+    margin-left:20px;
+    opacity:1;
+
+
+}
+.abme{
+
+    margin-right:30px;
+
+}
+.item{
+
+    position:relative;
+
+}
+
+
+.item p {
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+    background-color: white;
+    
+}
+.item:hover p {
+
+    opacity : 1;
+
+}
+.item:hover img{
+
+    opacity : 50%;
+    border:solid;
+
+}
+.menu:hover{
+
+    opacity:1;
+
+}
